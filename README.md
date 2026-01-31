@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-minsorted@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-array-minsorted/tags). For example,
+
+```javascript
 import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-minsorted@v0.1.0-deno/mod.js';
 ```
 
@@ -94,7 +99,7 @@ The function has the following parameters:
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-minsorted@v0.1.0-deno/mod.js';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-minsorted@deno/mod.js';
 
 var x = linspace( -50.0, 50.0, 10 );
 console.log( x );
