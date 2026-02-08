@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-minsorted@deno/mod.js';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-minsorted@v0.1.1-deno/mod.js';
 ```
 
 #### minsorted( x )
@@ -94,7 +94,7 @@ The function has the following parameters:
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-minsorted@deno/mod.js';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-minsorted@v0.1.1-deno/mod.js';
 
 var x = linspace( -50.0, 50.0, 10 );
 console.log( x );
